@@ -5,8 +5,10 @@ function App() {
   return (
     <>
       <main>
-        <Navbar/>
-        <Body />
+        <section>
+          <Navbar/>
+          <Body />
+        </section>
       </main>
     </>
   );

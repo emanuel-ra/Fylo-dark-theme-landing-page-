@@ -9,7 +9,7 @@ function TestimonialCard({ data }) {
         <img src={data.img} alt={data.name} className="w-11 rounded-full"/>
         <span className="flex flex-col">
             <span className="text-white font-semibold">{data.name}</span>
-            <span className="text-gray-400">{data.info}</span>
+            <span className="text-gray-400 text-xs">{data.info}</span>
         </span>
       </div>
     </article>

@@ -24,7 +24,7 @@ function Benefits() {
 
           <a href="" className="block flex text-cyan underline">
             See how Fylo works
-            <img src={icon_arrow} alt="icon arrow" className="ml-2" />
+            <img src={icon_arrow} alt="icon arrow" className="ml-2 w-5" />
           </a>
           
         </div>

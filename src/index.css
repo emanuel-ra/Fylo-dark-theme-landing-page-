@@ -18,13 +18,16 @@
     --white: hsl(0, 0%, 100%);
   }
   body{
-    @apply bg-dark-blue-testimonials;
+    @apply bg-dark-blue;
   }
   main{
-    @apply max-w-[1440px] min-h-screen mx-auto
+    @apply min-h-screen mx-auto bg-dark-blue
+  }
+  section{
+    @apply max-w-[1440px] min-h-screen mx-auto  bg-dark-blue-testimonials
   }
   header{
-    @apply w-full flex justify-between text-white p-14;
+    @apply w-full flex justify-between text-white p-4 lg:p-14;
   }
 }
 
@@ -33,7 +36,7 @@
     @apply w-full flex flex-col items-center justify-center bg-mobile md:bg-desktop bg-no-repeat bg-bottom
   }
   .card__intro__body{
-    @apply w-1/2 flex flex-col items-center text-center space-y-10
+    @apply w-10/12 lg:w-1/2 flex flex-col items-center text-center mt-5 space-y-2 lg:space-y-10
   }
   .card__offers{
     @apply bg-dark-blue w-full flex justify-center items-center
@@ -57,7 +60,7 @@
     @apply w-9/12 grid grid-cols-1 md:grid-cols-2 md:gap-4
   }
   .card__testimonials{
-    @apply w-full bg-dark-blue flex items-center justify-center
+    @apply w-full bg-dark-blue flex items-center justify-center py-9 bg-quotes bg-no-repeat bg-[left_2rem_top_0rem] lg:bg-[left_10rem_top_0rem]
   }
   .card__testimonials__body{
     @apply w-9/12 grid grid-cols-1 md:grid-cols-3 md:gap-10
@@ -65,8 +68,17 @@
   .testimonial{
     @apply w-full p-4 space-y-3 rounded-lg shadow-xl bg-dark-blue-testimonials mb-10
   }
+  .card__access{
+    @apply w-[75%] lg:w-[65%] bg-dark-blue-testimonials p-4 lg:p-12 rounded-lg shadow-lg
+  }
   .btn{ @apply p-2 w-full md:w-1/2 rounded-full }
   .btn__primary{ 
     @apply bg-blue text-white hover:bg-cyan
+  }
+  .input__text{
+    @apply p-3 rounded-full w-full lg:w-10/12
+  }
+  .footer{
+    @apply px-16 py-56 lg:py-44 lg:px-32 bg-dark-blue-footer
   }
 }

@@ -6,11 +6,13 @@ import icon_access_anywhere from "../../assets/icon-access-anywhere.svg";
 function Offers() {
   return (
     <div className="card__offers">
-      <div className="card__offers__body">      
+      <div className="card__offers__body mt-24">      
         <article>
+
           <picture>
             <img src={icon_access_anywhere} alt="Access your files, anywhere" />
           </picture>
+
           <h2>Access your files, anywhere</h2>
           <blockquote>
             The ability to use a smartphone, tablet, or computer to access your

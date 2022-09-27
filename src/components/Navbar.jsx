@@ -4,11 +4,11 @@ function Navbar() {
   return (
     <header>        
         <picture>
-            <img src={logo} alt="Logo" />
+            <img src={logo} alt="Logo" className='w-1/2 lg:w-full' />
         </picture>
 
         <div>
-            <ul className='flex space-x-3'>
+            <ul className='flex space-x-2 lg:space-x-3'>
                 <li>
                     <a href="">Features</a>
                 </li>

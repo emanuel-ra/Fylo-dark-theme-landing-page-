@@ -9,12 +9,14 @@ module.exports = {
       backgroundColor:theme=>({
         'dark-blue':'var(--dark-blue)' ,
         'dark-blue-testimonials':'var(--dark-blue-testimonials)' ,
+        'dark-blue-footer':'var(--dark-blue-footer)' ,
         'cyan':'var(--cyan)' ,
         'blue':'var(--blue)' ,
       }),
       backgroundImage:theme=>({
         'desktop':"url('./src/assets/bg-curvy-desktop.svg')",
         'mobile':"url('./src/assets/bg-curvy-mobile.svg')",
+        'quotes':"url('./src/assets/bg-quotes.png')",
       }),
       textColor: theme => ({
         'cyan':'var(--cyan)' ,
