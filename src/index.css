@@ -36,12 +36,36 @@
     @apply w-1/2 flex flex-col items-center text-center space-y-10
   }
   .card__offers{
-    @apply bg-dark-blue grid grid-cols-2
+    @apply bg-dark-blue w-full flex justify-center items-center
   }
-  .card__offers article{
-
+  .card__offers__body{
+    @apply w-9/12 bg-dark-blue grid grid-cols-1 md:grid-cols-2 gap-y-20 md:gap-24
   }
-  .btn{ @apply p-2 w-1/2 rounded-full }
+  .card__offers__body article{
+    @apply flex flex-col justify-center items-center text-center
+  }
+  .card__offers__body article h2{
+    @apply text-lg font-bold text-white
+  }
+  .card__offers__body article blockquote{
+    @apply text-base text-gray-400
+  }
+  .card__benefits{
+    @apply w-full flex items-center justify-center bg-dark-blue py-16
+  }
+  .card__benefits_body{
+    @apply w-9/12 grid grid-cols-1 md:grid-cols-2 md:gap-4
+  }
+  .card__testimonials{
+    @apply w-full bg-dark-blue flex items-center justify-center
+  }
+  .card__testimonials__body{
+    @apply w-9/12 grid grid-cols-1 md:grid-cols-3 md:gap-10
+  }
+  .testimonial{
+    @apply w-full p-4 space-y-3 rounded-lg shadow-xl bg-dark-blue-testimonials mb-10
+  }
+  .btn{ @apply p-2 w-full md:w-1/2 rounded-full }
   .btn__primary{ 
     @apply bg-blue text-white hover:bg-cyan
   }

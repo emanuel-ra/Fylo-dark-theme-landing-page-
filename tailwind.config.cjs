@@ -16,6 +16,9 @@ module.exports = {
         'desktop':"url('./src/assets/bg-curvy-desktop.svg')",
         'mobile':"url('./src/assets/bg-curvy-mobile.svg')",
       }),
+      textColor: theme => ({
+        'cyan':'var(--cyan)' ,
+      }),
     },
   },
   plugins: [],
