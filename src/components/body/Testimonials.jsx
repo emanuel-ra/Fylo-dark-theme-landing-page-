@@ -1,4 +1,7 @@
 import TestimonialCard from "./TestimonialCard";
+import profile1 from "../../assets/profile-1.jpg";
+import profile2 from "../../assets/profile-2.jpg";
+import profile3 from "../../assets/profile-3.jpg";
 
 function Testimonials() {
 
@@ -8,21 +11,21 @@ function Testimonials() {
       text:"Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
       name: "Bruce McKenzie",
       info: "Founder & CEO, Huddle",
-      img: "/src/assets/profile-1.jpg",
+      img: profile1,
     },
     {
       id: 1,
       text:"Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
       name: "Bruce McKenzie",
       info: "Founder & CEO, Huddle",
-      img: "/src/assets/profile-2.jpg",
+      img: profile2 ,
     },
     {
       id: 2,
       text:"Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
       name: "Iva Boyd",
       info: "Founder & CEO, Huddle",
-      img: "/src/assets/profile-3.jpg",
+      img: profile3 ,
     },
   ];
 
