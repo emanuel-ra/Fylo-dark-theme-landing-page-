@@ -22,7 +22,7 @@ function Benefits() {
             for live collaboration. No email attachments required.
           </blockquote>
 
-          <a href="" className="block flex text-cyan underline">
+          <a href="" className="block flex text-cyan underline hover:text-white">
             See how Fylo works
             <img src={icon_arrow} alt="icon arrow" className="ml-2 w-5" />
           </a>

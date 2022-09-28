@@ -20,6 +20,7 @@ module.exports = {
       }),
       textColor: theme => ({
         'cyan':'var(--cyan)' ,
+        'light-red-error':'var(--light-red-error)' ,
       }),
     },
   },

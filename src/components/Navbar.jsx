@@ -9,14 +9,14 @@ function Navbar() {
 
         <div>
             <ul className='flex space-x-2 lg:space-x-3'>
-                <li>
-                    <a href="">Features</a>
+                <li className='hover:underline'>
+                    <a href="#Features">Features</a>
                 </li>
-                <li>
-                    <a href="">Team</a>
+                <li className='hover:underline'>
+                    <a href="#Team">Team</a>
                 </li>
-                <li>
-                    <a href="">Sign In</a>
+                <li className='hover:underline'>
+                    <a href="#Sign In">Sign In</a>
                 </li>
             </ul>
         </div>

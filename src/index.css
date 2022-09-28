@@ -13,7 +13,7 @@
     /* Accent */
     --cyan: hsl(176, 68%, 64%);
     --blue: hsl(198, 60%, 50%);
-    --light-Red-error: hsl(0, 100%, 63%);
+    --light-red-error: hsl(0, 100%, 63%);
     /* Neutral */
     --white: hsl(0, 0%, 100%);
   }
