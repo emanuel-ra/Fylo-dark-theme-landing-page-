@@ -33,7 +33,7 @@
 
 @layer components{
   .card__intro{
-    @apply w-full flex flex-col items-center justify-center bg-[url('./src/assets/bg-curvy-mobile.svg')] md:bg-[url('./src/assets/bg-curvy-desktop.svg')] bg-no-repeat bg-bottom
+    @apply w-full flex flex-col items-center justify-center bg-[url('.../..src/assets/bg-curvy-mobile.svg')] md:bg-[url('../../src/assets/bg-curvy-desktop.svg')] bg-no-repeat bg-bottom
   }
   .card__intro__body{
     @apply w-10/12 lg:w-1/2 flex flex-col items-center text-center mt-5 space-y-2 lg:space-y-10
