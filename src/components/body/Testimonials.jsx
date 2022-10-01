@@ -31,11 +31,11 @@ function Testimonials() {
 
   return (
     <article className="card__testimonials">
-      <div className="card__testimonials__body">
+      <article className="card__testimonials__body">
         {Testimonials.map((testimonial) => (
           <TestimonialCard key={testimonial.id} data={testimonial} />
         ))}
-      </div>
+      </article>
     </article>
   );
 }

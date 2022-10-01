@@ -33,7 +33,7 @@
 
 @layer components{
   .card__intro{
-    @apply w-full flex flex-col items-center justify-center bg-[url('.../..src/assets/bg-curvy-mobile.svg')] md:bg-[url('../../src/assets/bg-curvy-desktop.svg')] bg-no-repeat bg-bottom
+    @apply w-full flex flex-col items-center justify-center bg-[url('./assets/bg-curvy-mobile.svg')] md:bg-[url('./assets/bg-curvy-desktop.svg')] bg-no-repeat bg-bottom
   }
   .card__intro__body{
     @apply w-10/12 lg:w-1/2 flex flex-col items-center text-center mt-5 space-y-2 lg:space-y-10
@@ -60,7 +60,7 @@
     @apply w-9/12 grid grid-cols-1 md:grid-cols-2 md:gap-4
   }
   .card__testimonials{
-    @apply w-full bg-dark-blue flex items-center justify-center py-9 bg-quotes bg-no-repeat bg-[left_2rem_top_0rem] lg:bg-[left_10rem_top_0rem]
+    @apply w-full bg-dark-blue flex items-center justify-center py-9 bg-[url('./assets/bg-quotes.png')] bg-no-repeat bg-[left_2rem_top_0rem] lg:bg-[left_10rem_top_0rem]
   }
   .card__testimonials__body{
     @apply w-9/12 grid grid-cols-1 md:grid-cols-3 md:gap-10

@@ -12,8 +12,8 @@ function GetAccess() {
 
   return (
     <article className="bg-dark-blue py-24">
-      <div className="flex justify-center items-center relative">
-        <div class="card__access absolute mt-40">
+      <article className="flex justify-center items-center relative">
+        <article className="card__access absolute mt-40">
           <h3 className="text-white text-3xl font-bold text-center">
             Get early access today
           </h3>
@@ -34,8 +34,8 @@ function GetAccess() {
             <button onClick={get_startted} className="btn btn__primary">Get Started For Free</button>
           </div>
           <span id="msg_wrong_email" className="ml-10 text-light-red-error transition ease-in-out opacity-0">Please enter valid email address</span>
-        </div>
-      </div>
+        </article>
+      </article>
     </article>
   );
 }

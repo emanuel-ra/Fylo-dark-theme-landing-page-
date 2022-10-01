@@ -4,11 +4,9 @@ import icon_arrow from "../../assets/icon-arrow.svg";
 function Benefits() {
   return (
     <article className="card__benefits">
-      <div className="card__benefits_body">
-        <picture>
-          <img src={image} alt="Stay productive" />
-        </picture>
-        <div className="text-left p-4 space-y-4">
+      <article className="card__benefits_body">      
+        <img src={image} alt="Stay productive" />      
+        <article className="text-left p-4 space-y-4">
           <h2 className="text-4xl font-bold text-white">
             Stay productive, wherever you are
           </h2>
@@ -27,8 +25,8 @@ function Benefits() {
             <img src={icon_arrow} alt="icon arrow" className="ml-2 w-5" />
           </a>
           
-        </div>
-      </div>
+        </article>
+      </article>
     </article>
   );
 }
